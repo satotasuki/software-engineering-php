@@ -10,46 +10,6 @@
     </div>
     <br>
     <div class="row" id="breads">
-        <div class="col-md-3">
-            <div class="card"> <img class="card-img-top" src="photos/DqUmcWFU8AEM1G2.jpg" alt="bread">
-                <div class="card-body">
-                    <h4 class="card-title">パン</h4>
-                    <p class="card-text">一般的パン</p>
-                    <br>
-                    <div class="starrate">★★★★☆</div>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-3">
-            <div class="card"> <img class="card-img-top" src="photos/DqUmcWFU8AEM1G2.jpg" alt="bread">
-                <div class="card-body">
-                    <h4 class="card-title">パン</h4>
-                    <p class="card-text">一般的パン</p>
-                    <br>
-                    <div class="starrate">★★★★☆</div>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-3">
-            <div class="card"> <img class="card-img-top" src="photos/DqUmcWFU8AEM1G2.jpg" alt="bread">
-                <div class="card-body">
-                    <h4 class="card-title">パン</h4>
-                    <p class="card-text">一般的パン</p>
-                    <br>
-                    <div class="starrate">★★★★☆</div>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-3">
-            <div class="card"> <img class="card-img-top" src="photos/DqUmcWFU8AEM1G2.jpg" alt="bread">
-                <div class="card-body">
-                    <h4 class="card-title">パン</h4>
-                    <p class="card-text">一般的パン</p>
-                    <br>
-                    <div class="starrate">★★★★☆</div>
-                </div>
-            </div>
-        </div>
     </div>
     <br>
     <div class="row text-left">
@@ -60,76 +20,6 @@
     </div>
     <br>
     <div class="row" id="sweets">
-        <div class="col-md-3">
-            <div class="card"> <img class="card-img-top" src="photos/Dp1oCFzVsAA9GvW.jpg" alt="bread">
-                <div class="card-body">
-                    <h4 class="card-title">スイーツ</h4>
-                    <p class="card-text">水推しスイーツたち</p>
-                    <br>
-                    <div class="starrate">★★★☆☆</div>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-3">
-            <div class="card"> <img class="card-img-top" src="photos/Dp1oCFzVsAA9GvW.jpg" alt="bread">
-                <div class="card-body">
-                    <h4 class="card-title">スイーツ</h4>
-                    <p class="card-text">水推しスイーツたち</p>
-                    <br>
-                    <div class="starrate">★★★☆☆</div>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-3">
-            <div class="card"> <img class="card-img-top" src="photos/Dp1oCFzVsAA9GvW.jpg" alt="bread">
-                <div class="card-body">
-                    <h4 class="card-title">スイーツ</h4>
-                    <p class="card-text">水推しスイーツたち</p>
-                    <br>
-                    <div class="starrate">★★★☆☆</div>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-3">
-            <div class="card"> <img class="card-img-top" src="photos/Dp1oCFzVsAA9GvW.jpg" alt="bread">
-                <div class="card-body">
-                    <h4 class="card-title">スイーツ</h4>
-                    <p class="card-text">水推しスイーツたち</p>
-                    <br>
-                    <div class="starrate">★★★☆☆</div>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-3">
-            <div class="card"> <img class="card-img-top" src="photos/Dp1oCFzVsAA9GvW.jpg" alt="bread">
-                <div class="card-body">
-                    <h4 class="card-title">スイーツ</h4>
-                    <p class="card-text">水推しスイーツたち</p>
-                    <br>
-                    <div class="starrate">★★★☆☆</div>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-3">
-            <div class="card"> <img class="card-img-top" src="photos/Dp1oCFzVsAA9GvW.jpg" alt="bread">
-                <div class="card-body">
-                    <h4 class="card-title">スイーツ</h4>
-                    <p class="card-text">水推しスイーツたち</p>
-                    <br>
-                    <div class="starrate">★★★☆☆</div>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-3">
-            <div class="card"> <img class="card-img-top" src="photos/Dp1oCFzVsAA9GvW.jpg" alt="bread">
-                <div class="card-body">
-                    <h4 class="card-title">スイーツ</h4>
-                    <p class="card-text">水推しスイーツたち</p>
-                    <br>
-                    <div class="starrate">★★★☆☆</div>
-                </div>
-            </div>
-        </div>
     </div>
     <br>
     <div class="row text-left">
@@ -142,4 +32,5 @@
     <div class="row" id="drinks">
     </div>
 </div>
+<script src="js/menulist.js" type="text/javascript"></script>
 <?php require('footer.php');?>
