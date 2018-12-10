@@ -1,0 +1,42 @@
+version: '3'
+services:
+    php:
+        image: myphp7
+        container_name: sfen-php
+        build: php-dockerfile
+        ports:
+            - "8888:80"
+        volumes:
+            - ${PWD}/htdocs:/var/www/html
+        networks:
+            sfen-network-php:
+                aliases:
+                    - php
+                ipv4_address: 192.168.2.2
+
+    db:
+        image: mysql
+        container_name: sfen-db-mysql
+        command: --default-authentication-plugin=mysql_native_password
+        environment:
+            MYSQL_DATABASE: php
+            MYSQL_USER: sfen
+            MYSQL_PASSWORD: sfen
+            MYSQL_ROOT_PASSWORD: root
+        ports:
+            - "8889:3306"
+        volumes:
+            - ${PWD}/db:/var/lib/mysql
+        networks:
+            sfen-network-php:
+                aliases:
+                    - db
+                ipv4_address: 192.168.2.3
+
+networks:
+    sfen-network-php:
+        driver: bridge
+        ipam:
+            driver: default
+            config:
+                - subnet: 192.168.2.0/24

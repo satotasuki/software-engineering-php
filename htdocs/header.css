@@ -1,0 +1,18 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.header,img {
+    width: calc(100%/3);
+}
+.menu {
+    font-size: 30px;
+}
+.menu-japan {
+    font-size: 15px;
+}
+.nav-item {
+    line-height: 70%;
+}
+#navbarSupportedContent {
+    justify-content: right;
+}
