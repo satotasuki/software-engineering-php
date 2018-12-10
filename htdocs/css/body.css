@@ -1,0 +1,30 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.title-border {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+.title-border:after {
+    border-top: 1px solid;
+    content: "";
+    flex-grow: 1;
+}
+.title-border:after {
+    margin-left: 1rem;
+}
+
+.boldtext {
+    font-weight: bolder;
+}
+
+.store-image {
+    width: 80vw;
+}
+
+.starrate {
+    color: orange;
+}

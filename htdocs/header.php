@@ -9,8 +9,8 @@
 <div id="home menu request reservation">
 <!-- Bootstrap -->
 <link href="css/bootstrap-4.0.0.css" rel="stylesheet">
-<link href="header.css" rel="stylesheet">
-<link href="body.css" rel="stylesheet">
+<link href="css/header.css" rel="stylesheet">
+<link href="css/body.css" rel="stylesheet">
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
 <script src="js/jquery-3.2.1.min.js"></script> 
